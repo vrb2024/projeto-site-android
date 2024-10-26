@@ -68,7 +68,10 @@ nav {
     background-color:var(--cor5);
     padding: 10px;
     box-shadow: 0px 7px 7px rgba(0,0,0,0.363);
+
+    
 }
+
 nav > a {
     color: var(--cor00);
     padding: 10px;
@@ -76,6 +79,7 @@ nav > a {
     text-decoration: none;
     font-weight: bold;
     transition-duration: 0.5s;
+    
 }
 nav > a:hover {
     background-color: var(--cor2);
@@ -91,8 +95,7 @@ main {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.404);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    
-    
+   
 }
 main h1 {
     color: var(--cor5);
