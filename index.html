@@ -18,6 +18,26 @@
         <a href="#">Curiosidades</a>
         <a href="#">Contato</a>
     </nav>
+
+     <!-- Botão Voltar ao Topo -->
+     <button onclick="voltarAoTopo()" id="btnTopo">&#x21E7</button>
+
+     <script>
+         // Função para rolar para o topo
+         function voltarAoTopo() {
+             window.scrollTo({ top: 0, behavior: 'smooth' });
+         }
+ 
+         // Exibir o botão ao rolar a página
+         window.onscroll = function () {
+             const btn = document.getElementById('btnTopo');
+             if (window.scrollY > 300) {
+                 btn.style.display = 'block';
+             } else {
+                 btn.style.display = 'none';
+             }
+         };
+     </script>
     <main>
         <article>
             <h1>História do Mascote do Android</h1>
